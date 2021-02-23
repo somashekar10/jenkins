@@ -195,7 +195,7 @@ THE SOFTWARE.
       <dependency>
         <groupId>com.google.guava</groupId>
         <artifactId>guava</artifactId>
-        <version>12.0-rc1</version>
+        <version>12.0.1</version>
       </dependency>
       
       <dependency>
@@ -781,8 +781,8 @@ THE SOFTWARE.
             <configuration>
               <mappingId>customizable</mappingId>
               <configurators>
-                <configurator id="org.maven.ide.eclipse.jdt.javaConfigurator" />
-                <configurator id="org.maven.ide.eclipse.plexus.annotations.plexusConfigurator" />
+                <configurator id="org.maven.ide.eclipse.jdt.javaConfigurator"/>
+                <configurator id="org.maven.ide.eclipse.plexus.annotations.plexusConfigurator"/>
               </configurators>
               <mojoExecutions>
                 <mojoExecution>org.apache.maven.plugins:maven-resources-plugin::</mojoExecution>
