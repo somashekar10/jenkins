@@ -203,7 +203,7 @@ THE SOFTWARE.
                because it uses a modified Guice called Sisu -->
         <groupId>org.sonatype.sisu</groupId>
         <artifactId>sisu-guice</artifactId>
-        <version>3.1.0</version>
+        <version>3.2.6</version>
       </dependency>
 
       <!-- SLF4J used in maven-plugin and core -->
@@ -781,8 +781,8 @@ THE SOFTWARE.
             <configuration>
               <mappingId>customizable</mappingId>
               <configurators>
-                <configurator id="org.maven.ide.eclipse.jdt.javaConfigurator" />
-                <configurator id="org.maven.ide.eclipse.plexus.annotations.plexusConfigurator" />
+                <configurator id="org.maven.ide.eclipse.jdt.javaConfigurator"/>
+                <configurator id="org.maven.ide.eclipse.plexus.annotations.plexusConfigurator"/>
               </configurators>
               <mojoExecutions>
                 <mojoExecution>org.apache.maven.plugins:maven-resources-plugin::</mojoExecution>
