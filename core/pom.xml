@@ -323,7 +323,7 @@ THE SOFTWARE.
     <dependency>
       <groupId>commons-jelly</groupId>
       <artifactId>commons-jelly-tags-xml</artifactId>
-      <version>1.1</version>
+      <version>20030211.142705</version>
       <exclusions>
         <exclusion>
           <groupId>commons-jelly</groupId>
@@ -417,7 +417,7 @@ THE SOFTWARE.
       -->
       <groupId>org.springframework</groupId>
       <artifactId>spring-web</artifactId>
-      <version>2.5</version>
+      <version>2.5.6.SEC03</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
@@ -726,7 +726,7 @@ THE SOFTWARE.
             <manifest>
               <mainClass>hudson.Main</mainClass>
               <addClasspath>true</addClasspath>
-              <classpathPrefix />
+              <classpathPrefix/>
             </manifest>
           </archive>
         </configuration>
